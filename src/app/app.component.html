@@ -1,0 +1,121 @@
+<div class="min-h-screen bg-rose-50">
+  <!-- Header -->
+  <header class="text-center py-8 bg-white shadow-md">
+    <h1 class="text-3xl font-serif text-rose-600">Nasza Wspólna Podróż</h1>
+    <p class="text-gray-600 mt-2">Każde miejsce kryje szczególną pamiątkę o nas ❤️</p>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container mx-auto px-4 py-8">
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Map Section -->
+      <div class="bg-white rounded-lg shadow-lg p-4" [class.hidden]="isModalOpen">
+        <div class="aspect-square relative" #mapContainer></div>
+      </div>
+
+      <!-- Memory Details Section -->
+      <div class="bg-white rounded-lg shadow-lg p-6" [class.md:col-span-2]="isModalOpen">
+        <!-- Navigation Buttons for Details View -->
+        <div *ngIf="selectedMemory" 
+        class="absolute top-[50%] -translate-y-1/2 w-full left-0 px-2 sm:px-4 flex justify-between pointer-events-none z-10">
+          <button 
+            (click)="navigateMemory('prev')"
+            [disabled]="!hasPreviousMemory()"
+            class="bg-white/90 text-rose-600 p-1 sm:p-2 rounded-full shadow-lg hover:bg-rose-50 transition-colors pointer-events-auto disabled:opacity-50 disabled:cursor-not-allowed">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button 
+            (click)="navigateMemory('next')"
+            [disabled]="!hasNextMemory()"
+            class="bg-white/90 text-rose-600 p-1 sm:p-2 rounded-full shadow-lg hover:bg-rose-50 transition-colors pointer-events-auto disabled:opacity-50 disabled:cursor-not-allowed">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+        <div *ngIf="selectedMemory" 
+            class="space-y-4 transform transition-all duration-300"
+            [class.opacity-0]="!selectedMemory"
+            [class.opacity-100]="selectedMemory">
+          <img 
+            [src]="selectedMemory.imageUrl" 
+            [alt]="selectedMemory.name"
+            class="w-full h-80 object-cover rounded-lg shadow-md cursor-pointer hover:opacity-90 transition-opacity"
+            (click)="openImageModal()"
+          />
+          <div class="space-y-2">
+            <h2 class="text-2xl font-serif text-rose-600">{{selectedMemory.name}}</h2>
+            <p class="text-gray-500">{{selectedMemory.date}}</p>
+            <p class="text-gray-700 leading-relaxed">{{selectedMemory.story}}</p>
+          </div>
+        </div>
+        <div *ngIf="!selectedMemory" class="text-center py-12">
+          <p class="text-gray-500">Wybierz miejsce na mapie, aby zobaczyć nasze wspomnienie ✨</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Memory Timeline -->
+    <div class="mt-12" [class.hidden]="isModalOpen">
+      <h2 class="text-2xl font-serif text-rose-600 mb-6">Nasza Oś Czasu</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div *ngFor="let memory of memories" 
+            (click)="selectMemory(memory)"
+            class="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transform transition hover:scale-105 hover:shadow-xl"
+            [class.ring-2]="selectedMemory?.id === memory.id"
+            [class.ring-rose-500]="selectedMemory?.id === memory.id">
+          <img [src]="memory.imageUrl" [alt]="memory.name" class="w-full h-48 object-cover"/>
+          <div class="p-4">
+            <h3 class="font-serif text-lg text-rose-600">{{memory.name}}</h3>
+            <p class="text-sm text-gray-500">{{memory.date}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Modal -->
+  <div *ngIf="isModalOpen" 
+      class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4"
+      (click)="closeImageModal()">
+    <div class="max-w-screen-xl w-full relative" (click)="$event.stopPropagation()">
+      <!-- Navigation Buttons for Modal -->
+      <div class="absolute top-1/2 -translate-y-1/2 w-full flex justify-between px-2 sm:px-4 z-20">
+        <button 
+          (click)="navigateMemory('prev'); $event.stopPropagation()"
+          [disabled]="!hasPreviousMemory()"
+          class="bg-black/50 text-white p-2 sm:p-3 rounded-full hover:bg-black/75 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-8 sm:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <button 
+          (click)="navigateMemory('next'); $event.stopPropagation()"
+          [disabled]="!hasNextMemory()"
+          class="bg-black/50 text-white p-2 sm:p-3 rounded-full hover:bg-black/75 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-8 sm:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+      <!-- Close button -->
+      <button 
+        class="absolute top-4 right-4 text-white bg-black bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition-colors z-10 cursor-pointer"
+        (click)="closeImageModal()">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+      <!-- Image -->
+      <img 
+        *ngIf="selectedMemory"
+        [src]="selectedMemory.imageUrl" 
+        [alt]="selectedMemory.name"
+        class="w-full h-auto max-h-[90vh] object-contain rounded-lg"
+      />
+    </div>
+  </div>
+</div>
