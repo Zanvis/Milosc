@@ -18,7 +18,8 @@ export class AppComponent implements OnInit, AfterViewInit {
   private map: any;
   private markers: any[] = [];
   private isBrowser: boolean;
-
+  showScrollButton = false;
+  
   constructor(
     private memoryService: MemoryService,
     @Inject(PLATFORM_ID) platformId: Object
@@ -159,6 +160,22 @@ export class AppComponent implements OnInit, AfterViewInit {
         event.preventDefault();
         this.navigateMemory('next');
       }
+    }
+  }
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    if (this.isBrowser) {
+      this.showScrollButton = window.scrollY > 300;
+    }
+  }
+
+  // Add this method to handle the scroll to top
+  scrollToTop() {
+    if (this.isBrowser) {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
     }
   }
 }

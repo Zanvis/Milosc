@@ -1,4 +1,17 @@
 <div class="min-h-screen bg-rose-50">
+  <!-- Add this right after your opening body tag -->
+  <div class="falling-hearts" aria-hidden="true">
+    <div class="heart">❤️</div>
+    <div class="heart">❤️</div>
+    <div class="heart">❤️</div>
+    <div class="heart">❤️</div>
+    <div class="heart">❤️</div>
+    <div class="heart">❤️</div>
+    <div class="heart">❤️</div>
+    <div class="heart">❤️</div>
+    <div class="heart">❤️</div>
+  </div>
+
   <!-- Header -->
   <header class="text-center py-8 bg-white shadow-md">
     <h1 class="text-3xl font-serif text-rose-600">Nasza Wspólna Podróż</h1>
@@ -16,8 +29,8 @@
       <!-- Memory Details Section -->
       <div class="bg-white rounded-lg shadow-lg p-6" [class.md:col-span-2]="isModalOpen">
         <!-- Navigation Buttons for Details View -->
-        <div *ngIf="selectedMemory" 
-        class="absolute top-[50%] -translate-y-1/2 w-full left-0 px-2 sm:px-4 flex justify-between pointer-events-none z-10">
+        <div *ngIf="selectedMemory && !isModalOpen" 
+        class="absolute top-[50%] -translate-y-1/2 w-full left-0 px-2 sm:px-4 flex justify-between pointer-events-none z-9999">
           <button 
             (click)="navigateMemory('prev')"
             [disabled]="!hasPreviousMemory()"
@@ -118,4 +131,23 @@
       />
     </div>
   </div>
+  <!-- Scroll to Top -->
+  <button 
+    *ngIf="showScrollButton"
+    (click)="scrollToTop()" 
+    class="fixed bottom-4 right-4 bg-rose-500 text-white p-3 rounded-full shadow-lg hover:bg-rose-600 transition-all duration-300 z-40 cursor-pointer"
+    aria-label="Przewiń do góry">
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      class="h-6 w-6" 
+      fill="none" 
+      viewBox="0 0 24 24" 
+      stroke="currentColor">
+      <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="2" 
+        d="M5 10l7-7m0 0l7 7m-7-7v18" />
+    </svg>
+  </button>
 </div>
