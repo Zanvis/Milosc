@@ -34,7 +34,7 @@
           <button 
             (click)="navigateMemory('prev')"
             [disabled]="!hasPreviousMemory()"
-            class="bg-white/90 text-rose-600 p-1 sm:p-2 rounded-full shadow-lg hover:bg-rose-50 transition-colors pointer-events-auto disabled:opacity-50 disabled:cursor-not-allowed">
+            class="bg-white/90 text-rose-600 p-1 sm:p-2 rounded-full shadow-lg hover:bg-rose-50 transition-colors pointer-events-auto disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg>
@@ -42,7 +42,7 @@
           <button 
             (click)="navigateMemory('next')"
             [disabled]="!hasNextMemory()"
-            class="bg-white/90 text-rose-600 p-1 sm:p-2 rounded-full shadow-lg hover:bg-rose-50 transition-colors pointer-events-auto disabled:opacity-50 disabled:cursor-not-allowed">
+            class="bg-white/90 text-rose-600 p-1 sm:p-2 rounded-full shadow-lg hover:bg-rose-50 transition-colors pointer-events-auto disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
@@ -99,7 +99,7 @@
         <button 
           (click)="navigateMemory('prev'); $event.stopPropagation()"
           [disabled]="!hasPreviousMemory()"
-          class="bg-black/50 text-white p-2 sm:p-3 rounded-full hover:bg-black/75 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+          class="bg-black/50 text-white p-2 sm:p-3 rounded-full hover:bg-black/75 transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-8 sm:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
@@ -107,7 +107,7 @@
         <button 
           (click)="navigateMemory('next'); $event.stopPropagation()"
           [disabled]="!hasNextMemory()"
-          class="bg-black/50 text-white p-2 sm:p-3 rounded-full hover:bg-black/75 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+          class="bg-black/50 text-white p-2 sm:p-3 rounded-full hover:bg-black/75 transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-8 sm:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
