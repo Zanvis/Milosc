@@ -155,7 +155,7 @@ export class MemoryService {
       name: "Powtórka naszej pierwszej randki",
       date: "2 listopada, 2024",
       description: "The park where we saw the lights",
-      coordinates: [52.143446918156236, 21.039215263447097],
+      coordinates: [52.23992539778184, 21.047435431683713],
       imageUrl: "./17.jpg",
       story: "Na nasz 8 miesiąc związku zaplanowałem powtórkę naszej pierwszej randki. Nawet ubrałem się tak samo 😂. Prawie wszystko powtórzyłem, co było na pierwszej randce. Specjalnie niektóre rzeczy pominąłem, by mimo wszystko spędzić czas trochę bardziej oryginalniej. Myślę, że poszło mi dość dobrze 🫣. Ja się bawiłem świetnie, bo byłem z tobą 🥰."
     },
