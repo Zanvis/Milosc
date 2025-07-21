@@ -265,17 +265,17 @@ export class MemoryService {
       description: "The park where we saw the lights",
       coordinates: [52.223584670029695, 20.928264562994777],
       imageUrl: "./29.jpg",
-      story: "Nadszedł długo wyczekiwany przeze mnie dzień. Niespodzianka, którą trzymałem w ukryciu przez długi, ale to długi czas. Lot do Mediolanu! Wiedziałem, że Maja bardzo chce polecieć samolotem, więc uznałem, że połączę to razem z wycieczką do jakiegoś zagranicznego miasta. Padło na Mediolan ze względów ekonomicznych i czasowych. Uznałem też, że Włochy są po prostu na tyle fajnych miejscem, że będziemy mogli to długo wspominać. Musiałem wszystko uzgodnić z mamą Mai, choć wątpiłem, że się zgodzi. Po jakimś czasie namysłu zgodziła się. Maja wyglądała na bardzo szczęśliwą, gdy lecieliśmy do Mediolanu, mam nadzieję, że wszystko się jej podobało, bo naprawdę się postarałem. Bardzo się denerwowałem, czy dam radę wszystko ogarnąć. Czy uda się dojechać do Mediolanu, czy dam radę kupić bilety na metro, czy dam radę nas poprowadzić przez miasto i czy damy radę wrócić. Wziąłem to wszystko na siebie, bo chciałem, by Maja spędziła niesamowicie ten dzień. Finalnie stwierdzam, że było super i mam naprawdę głęboką nadzieję, że dla Mai zostanie ta wycieczka ciepłym i niezapomnianym wspomnieniem 🥰."
+      story: "Pojechaliśmy do Fashion House do Piaseczna, by Maja mogła kupić sobie nowe buty. Udało jej się wybrać aż dwie pary butów 🤯. Na każdą parę braliśmy specjalnie rabat, zapisując się do newslettera 😂. Po udanych zakupach pojechaliśmy na dobre jedzonko, zjedliśmy super burgery 🤤. Po obiedzie pojechaliśmy na wrotki disco. Pierwszy raz jechałem na wrotkach i jakoś to szło. Liczyliśmy, ile razy dzieci się wywrócą na tych wrotkach 😂. Moi faworycie oczywiście przegrali, bo zamiast jechać do siedzieli. Dużo pojeździliśmy, bo jak już było zapłacone, to korzystaliśmy 😂. Pochodziliśmy jeszcze po galerii, w której też byliśmy pierwszy raz, szukaliśmy chłodnego napoju, bo się mocno zmęczyliśmy. Fajnie było, choć Maja się ani razu nie przewróciła 😢."
     }
     ,
     {
       id: 30,
-      name: "Urodziny Ameli",
+      name: "Urodziny Amelki",
       date: "9 maja, 2025",
       description: "The park where we saw the lights",
-      coordinates: [52.25664327070443, 20.983925483195154],
+      coordinates: [52.164860332181505, 21.016617302867466],
       imageUrl: "./30.jpg",
-      story: "Zostałaś zaproszona razem ze mną na urodziny Ameli, a jako że Amela to córka twojej ulubionej cioci, to było ci miło 🥰. Same urodziny niby spoko, trochę potańczyliśmy, trochę się pobawiliśmy, fajnie. Następnego dnia pojechaliśmy na bilarda, w którym sensacyjnie ze mną wygrałaś. Po bilardzie pojechaliśmy do Arkadii, bo nigdy w niej nie byłaś. No i był to niezły szok, bo ludzi było multum. Akurat też dresscode był, bo miał jakieś wydarzenie 😂. Tak to się nic takiego nie działo, trochę pojeździliśmy w grze na takiej fajnej kierownicy. Na wieczór zjedliśmy burgery mojego autorstwa."
+      story: "Zostałaś zaproszona razem ze mną na urodziny Amelki, a jako że Amelka to córka twojej ulubionej cioci, to było ci miło 🥰. Same urodziny niby spoko, trochę potańczyliśmy, trochę się pobawiliśmy, fajnie. Następnego dnia pojechaliśmy na bilarda, w którym sensacyjnie ze mną wygrałaś. Po bilardzie pojechaliśmy do Arkadii, bo nigdy w niej nie byłaś. No i był to niezły szok, bo ludzi było multum. Akurat też dresscode był, bo miał jakieś wydarzenie 😂. Tak to się nic takiego nie działo, trochę pojeździliśmy w grze na takiej fajnej kierownicy. Na wieczór zjedliśmy burgery mojego autorstwa."
     },
     {
       id: 31,
