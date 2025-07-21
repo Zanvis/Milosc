@@ -229,7 +229,80 @@ export class MemoryService {
       description: "The park where we saw the lights",
       coordinates: [45.46412547363981, 9.1919091316721],
       imageUrl: "./25.jpg",
+      story: "To był w całości twój pomysł na randkę! Byliśmy w Centrum Nauki Kopernik - nic nie pamiętałem z ostatniego razu, gdy tam byłem, więc miło było zobaczyć to miejsce raz jeszcze. Maja była tam pierwszy raz 🥰. Było miło i ciekawie, choć momentami również strasznie - były tam żywe, przerażające pająki. Spędziliśmy tam naprawdę dużo czasu, więc nie zdążyliśmy nic zjeść. Później pojechaliśmy do Muzeum Cosmos - nigdy wcześniej o nim nie słyszałem, a było zjawiskowe, bardzo mi się podobało. Choć Maja wyraźnie już źle się czuła. Na zakończenie dnia pojechaliśmy jeszcze do parku trampolin z parkiem linowym. Też było fajnie, ale szkoda, że Maja nawet nie spróbowała wejść na tor linowy. Mimo wszystko to był świetny dzień, który zakończyliśmy dużą wyżerką w McDonald's 😍."
+    },
+    {
+      id: 26,
+      name: "Twoja zaplanowana randka w Warszawie",
+      date: "13 lutego, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.23224493751697, 20.98770372999135],
+      imageUrl: "./26.jpg",
+      story: "To był w całości twój pomysł na randkę! Byliśmy w Centrum Nauki Kopernik, ja nic nie pamiętałem z ostatniego razu tam byłem, więc miło było zobaczyć to miejsce raz jeszcze. Maja była tam pierwszy raz 🥰. Miło i ciekawie, choć momentami też strasznie, bo były żywe, straszne pająki. Byliśmy tam naprawdę długo, więc nie zdążyliśmy zjeść. Później pojechaliśmy do Muzeum Cosmos - pierwszy raz słyszałem o tym miejscu i było zjawiskowo, bardzo mi się podobało. Choć Maja wyraźnie źle się już czuła. Pod koniec dnia pojechaliśmy jeszcze na park trampolin z parkiem linowym, też było fajnie, ale szkoda, że Maja chociaż nie spróbowała wejść na ten tor linowy. Mimo wszystko było fajnie, a dzień zakończyliśmy dużą wyżerką w McDonald's 😍."
+    },
+    {
+      id: 27,
+      name: "Urodziny mojej mamy",
+      date: "15 lutego, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.20089124310727, 21.029125424791648],
+      imageUrl: "./27.jpg",
+      story: "Myślałem, że cię zaskoczę, więc zaplanowałem wizytę w miejscu, gdzie serwują koreańskie tosty, które były na tiktoku, co mi wysłałaś. Były smaczne, ale za to dość mocno ostre 😂. Wieczorem byliśmy razem z moimi rodzicami, Alą i Lukasem u Szwejka, ale jedzenie było raczej fujka. Kolejnego dnia byliśmy wszyscy w Muzeum Wedla. Generalnie myślę, że było w porządku, ciekawa i interesująca historia Wedla. Następnie pojechaliśmy na pizzę 🤤. Trochę posmutaliśmy, ale byliśmy razem, więc podnieśliśmy się na duchu. Przyszedł dzień urodziny mojej mamy w lokalu. Wydawało mi się ogólnie, że wyszło fajnie, nic się takiego nie działo, pobawiliśmy się trochę i jedzenie było smaczne."
+    },
+    {
+      id: 28,
+      name: "Nasza rocznica",
+      date: "8 marca, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.18027865661815, 21.028215707901804],
+      imageUrl: "./28.jpg",
+      story: "Co prawda nasza rocznica była 2 marca, to spotkaliśmy się dopiero 7 marca. Szykowałem istną bombę - sushi! Wiem, że Maja bardzo lubi sushi, więc uznałem, że postaram się chociaż na rocznicę ją zabrać na takie jedzenie. No i wyszło super, było pyszne, a Maja była szczęśliwa 🥰. Ale muszę przyznać, że Maja zaskoczyła mnie jeszcze bardziej, bo przed sushi zabrała mnie na molo, na którym jest nasza kłódka i wyjęła mały sernik baskijki ze świeczką - jedynką, z okazji naszej rocznicy. Byłem przeszczęśliwy, mamy też pamiątkę z tego wydarzenia w postaci filmiku. Tego dnia pojechaliśmy jeszcze do Galerii Młociny, wypiliśmy bubble tea i pozjeżdżaliśmy ze zjeżdżalni. Super ❤️."
+    },
+    {
+      id: 29,
+      name: "Twoje zakupy ze mną",
+      date: "29 marca, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.223584670029695, 20.928264562994777],
+      imageUrl: "./29.jpg",
       story: "Nadszedł długo wyczekiwany przeze mnie dzień. Niespodzianka, którą trzymałem w ukryciu przez długi, ale to długi czas. Lot do Mediolanu! Wiedziałem, że Maja bardzo chce polecieć samolotem, więc uznałem, że połączę to razem z wycieczką do jakiegoś zagranicznego miasta. Padło na Mediolan ze względów ekonomicznych i czasowych. Uznałem też, że Włochy są po prostu na tyle fajnych miejscem, że będziemy mogli to długo wspominać. Musiałem wszystko uzgodnić z mamą Mai, choć wątpiłem, że się zgodzi. Po jakimś czasie namysłu zgodziła się. Maja wyglądała na bardzo szczęśliwą, gdy lecieliśmy do Mediolanu, mam nadzieję, że wszystko się jej podobało, bo naprawdę się postarałem. Bardzo się denerwowałem, czy dam radę wszystko ogarnąć. Czy uda się dojechać do Mediolanu, czy dam radę kupić bilety na metro, czy dam radę nas poprowadzić przez miasto i czy damy radę wrócić. Wziąłem to wszystko na siebie, bo chciałem, by Maja spędziła niesamowicie ten dzień. Finalnie stwierdzam, że było super i mam naprawdę głęboką nadzieję, że dla Mai zostanie ta wycieczka ciepłym i niezapomnianym wspomnieniem 🥰."
+    }
+    ,
+    {
+      id: 30,
+      name: "Urodziny Ameli",
+      date: "9 maja, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.25664327070443, 20.983925483195154],
+      imageUrl: "./30.jpg",
+      story: "Zostałaś zaproszona razem ze mną na urodziny Ameli, a jako że Amela to córka twojej ulubionej cioci, to było ci miło 🥰. Same urodziny niby spoko, trochę potańczyliśmy, trochę się pobawiliśmy, fajnie. Następnego dnia pojechaliśmy na bilarda, w którym sensacyjnie ze mną wygrałaś. Po bilardzie pojechaliśmy do Arkadii, bo nigdy w niej nie byłaś. No i był to niezły szok, bo ludzi było multum. Akurat też dresscode był, bo miał jakieś wydarzenie 😂. Tak to się nic takiego nie działo, trochę pojeździliśmy w grze na takiej fajnej kierownicy. Na wieczór zjedliśmy burgery mojego autorstwa."
+    },
+    {
+      id: 31,
+      name: "Nowy golf w Blue City",
+      date: "23 maja, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.21266952394282, 20.955904219410588],
+      imageUrl: "./31.jpg",
+      story: "To był dzień, kiedy się dowiedziałem, że w Carrefourze można kupić baniak 5 litrowy wody Żywiec Zdrój 😂. Pojechaliśmy na golfa do Blue City. Na takim golfie jeszcze nie byliśmy, jakimś cudem niestety przegrałem, ale ogólnie zabawa przednia, dużo dołków, praktycznie zero ludzi, więc było przyjemnie. Potem pojechaliśmy na pizzunię 🥰. Na kolację zjedliśmy kanapkę na wzór tej, co robi Maja. Nie równają się one poziomem do tych Mai, ale zawsze się staram, jak gotuję, by Mai smakowało."
+    },
+    {
+      id: 32,
+      name: "Multimedialny Park Fontann po raz kolejny",
+      date: "4 lipca, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.254338697944135, 21.010650256104686],
+      imageUrl: "./32.jpg",
+      story: "O mało co Maja by nie przyjechała, a ja miałem już tak fajnie weekend zaplanowany. Na szczęście jakoś się udało 🥰. Byliśmy na starówce, zjedliśmy giga świderki i naprawdę takie giga. No i byliśmy na pokazie światełek w Multimedialnym Parku Fontann. Akurat był to spektakl o Warszawie i śpiewała Sanah. Byłem przygotowany i wziąłem ze sobą kocyk 🫣. Następnego dnia pojechaliśmy na wycieczkę rowerową. Specjalnie pożyczyłem od wujka rower. Już myślałem, że będę to ja musiał jechać na elektrycznym, bo nie mogłem zniżyć siodełka dla Mai, ale na szczęście dała sobie radę i mogła miło na nim popylać ❤️. Byliśmy na polu mokotowskim, trochę tam posiedzieliśmy, a później ruszyliśmy do Dziurki od Klucza, o czym oczywiście Maja nie wiedziała. Wszystko się udało, a ja zobaczyłem uśmiech u miłości mojego życia. Ogólnie bardzo dużo się uśmiechała, co mnie bardzo, ale to bardzo cieszyło. Po rowerach odpoczywaliśmy, a wieczorem poszliśmy po bubble tea. Obejrzeliśmy też film, który okazał się klapą i Maja na samym końcu zasnęła 😂."
+    },
+    {
+      id: 33,
+      name: "Moja manicurzystka",
+      date: "18 lipca, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.954995656133214, 20.070282424064853],
+      imageUrl: "./33.jpg",
+      story: "Maja kupiła sprzęt do paznokci i zaczęła go używać, byłem jej pierwszym klientem, a przynajmniej tak mówiła 🫣. Bardzo miło mi było patrzeć, jak Maja się cieszy z tego, co robi. Trochę mnie to bolało, bo nie jestem przyzwyczajony do manicure, ale efekt był genialny - moje paznokcie nigdy nie były takie piękne 😂. W ten weekend dużo też rozmawialiśmy i przeżywaliśmy różne emocje. Cieszę się bardzo, że Maja jest, zależy mi bardzo na niej i chcę dla niej jak najlepiej, dlatego mam nadzieję, że będę ją coraz częściej widział z takim uśmiechem na twarzy, jaki miała w trakcie zajmowania się paznokciami 🥺."
     }
   ];
 
