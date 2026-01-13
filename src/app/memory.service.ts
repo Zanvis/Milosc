@@ -303,6 +303,79 @@ export class MemoryService {
       coordinates: [52.954995656133214, 20.070282424064853],
       imageUrl: "./33.jpg",
       story: "Maja kupiła sprzęt do paznokci i zaczęła go używać, byłem jej pierwszym klientem, a przynajmniej tak mówiła 🫣. Bardzo miło mi było patrzeć, jak Maja się cieszy z tego, co robi. Trochę mnie to bolało, bo nie jestem przyzwyczajony do manicure, ale efekt był genialny - moje paznokcie nigdy nie były takie piękne 😂. W ten weekend dużo też rozmawialiśmy i przeżywaliśmy różne emocje. Cieszę się bardzo, że Maja jest, zależy mi bardzo na niej i chcę dla niej jak najlepiej, dlatego mam nadzieję, że będę ją coraz częściej widział z takim uśmiechem na twarzy, jaki miała w trakcie zajmowania się paznokciami 🥺."
+    },
+    {
+      id: 34,
+      name: "Urodzinowy wyjazd",
+      date: "12 września, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [51.109274800355145, 17.03211631627729],
+      imageUrl: "./34.jpg",
+      story: "Mieliśmy spędzić razem piątek w ramach moich urodzin, bo Maja miała pracować w weekend. Ale okazało się, że mnie wkręciła i pojechaliśmy na cały weekend do Wrocławia 🥰. Byłem przeszczęśliwy, totalnie się tego nie spodziewałem, do samego końca nie wiedziałem, gdzie wylądujemy 😂. Mieliśmy super apartament, lokalizacja niby tak na obrzeżach Wrocławia, a jednak komunikacja tam była rewelacyjna. Zwiedziliśmy sporo miejsc, naprawdę jest tam ładnie. Nie da się ukryć, że zjedliśmy też bardzo dobre jedzonko, trochę poeksperymentowaliśmy, była to miła odmiana. Musimy częściej próbować nowych smaków 😍. Zrobiliśmy dużo kroków, trochę pod górę też wchodziliśmy. Przyjemne jest to szukanie krasnali, dodaje miastu uroku. Maja zadbała o wszystko, i mimo że pogoda nie dopisywała w pełni, to uważam, że było genialnie! ❤️ Miałem swój tort oraz kebaba 50 cm z samym mięsem i frytkami 😂. To był naprawdę niesamowity weekend, świetnie się bawiłem i jestem bardzo wdzięczny Mai, że zorganizowała coś takiego dla mnie 🥰."
+    },
+    // tu nowe
+    {
+      id: 35,
+      name: "Mr. Pancake & Pizza BOYZ",
+      date: "7 października, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.21659647542736, 21.019621302493043],
+      imageUrl: "./35.jpg",
+      story: "Maja była na dniu próbnym w przedszkolu, opowiadała mi o tym, miło było słyszeć, że trafiła na coś, co jej się podoba 🥰. Byliśmy również na randce, Maja zabrała mnie na potężny obiad w miejscu, o którym mi już wcześniej mówiła. Kozackie pankejki, słodkie i czekoladowe - takie, jak lubię. Pizza mocna, ale raczej bardziej wygląda niż smakuje, frytki słabiutkie, ale myślę, że na pankejki warto wrócić. Byłem przeszczęśliwy, że Maja mnie tam zabrała, po jedzeniu poszliśmy jeszcze do kina, bo miałem bilety za 10 zł 🫣."
+    },
+    {
+      id: 36,
+      name: "Nowy rozdział",
+      date: "3 listopada, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.133930185199915, 21.064022977343562],
+      imageUrl: "./36.jpg",
+      story: "Wielki dzień, wielki moment, w końcu nadeszła ta chwila - zaczynami mieszkać razem 🥺. Nie było to łatwe przedsięwzięcie, szukanie mieszkania jest bardzo wymagające, tym bardziej, że trzeba patrzeć na wiele różnych zależności. Dodatkowo Maja wciąż wynajmowała pokój, ale jak ja słyszałem, jak bardzo jej tam źle, to wiedziałem, że pokój nie może mnie zatrzymać - trzeba zaryzykować, a następnie pokoju się pozbyć. Myślę, że znaleźliśmy dość fajne mieszkanie z garażem zaraz przy metrze. Jest ono dość kompaktowe, ale za to nasze 🥰. Przeprowadzka była mozolna i ciężka, dużo rzeczy do przeniesienia, brak biurka czy podstawowych przedmiotów, trzeba było robić spore zakupy, by mieć rzeczy potrzebne do życia. Proces pozbywania pokoju też był trudny, w końcu pierwsza realna osoba chętna wzięła je po dłuższej batalii. Długo walczyliśmy o ten moment, ale nasze starania doprowadziły do tego, że się udało! ❤️"
+    },
+    {
+      id: 37,
+      name: "Jarmark Bożonarodzeniowy",
+      date: "30 listopada, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.231475724435995, 21.008974735267106],
+      imageUrl: "./37.jpg",
+      story: "Byliśmy razem z Mają na obiedzie u mojej babci. Było to spotkanie łączące kilka uroczystości, więc zebraliśmy się wszyscy razem. Myślę, że było miło i dość normalnie. Po obiedzie pojechaliśmy na jarmark bożonarodzeniowy przy Pałacu Kultury 🫣. Ogólnie bardzo lubię jarmarki i takie wydarzenia, a pierwszy raz byłem na jarmarku w tym miejscu. Był diabelski młyn i ciężarówka Coca-Coli! Były tam darmowe cole, ale kolejka była zdecydowanie zbyt długa, żeby w niej stać 😂. Zjedliśmy na jednym stoisku świetną kiełbasę z dodatkami oraz wypasione frytki. Naprawdę dobrze trafiliśmy z jedzeniem. Atmosfera była super, a sam jarmark, myślę, że bardzo udany, choć muszę przyznać, że było bardzo, ale to bardzo tłoczno. Mimo to miało to swój urok. Było mi bardzo miło, że mogłem spędzić ten czas z Mają."
+    },
+    {
+      id: 38,
+      name: "Podwyżka",
+      date: "9 grudnia, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.16670220946779, 21.040701604559118],
+      imageUrl: "./38.jpg",
+      story: "Nadszedł spodziewany przeze mnie dzień. Michał powiedział mi wcześniej, że chyba musimy pogadać. Domyślałem się, że pewnie chodzi o podwyżkę i nie myliłem się. Trochę pogadaliśmy o tym, że chcą, żebym dalej z nimi współpracował, że będzie podwyżka, ale chodziło o formę naszej współpracy. Cieszyłem się bardzo z tej podwyżki, było mi niesamowicie miło, poczułem się mega doceniony, tym bardziej że praca mi się podoba. Jedyną osobą, z którą podzieliłem się tą wieścią, była Maja - świętowaliśmy mój, nazwijmy to, awans 🥰. Później okazało się, że podwyżka będzie wraz z nową umową, a nie od razu od tego miesiąca, jak myślałem, ale nie zmienia to faktu, że udało się zrobić duży postęp i widać wynik mojej pracy."
+    },
+    {
+      id: 39,
+      name: "Nasza pierwsza wspólna Wigilia",
+      date: "24 grudnia, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.747177630814, 20.036432287773327],
+      imageUrl: "./39.jpg",
+      story: "Uważam, że nasza pierwsza wspólna Wigilia to pewien symbol. Symbol pokazujący, że przekroczyliśmy granicę, której wcześniej nie udało nam się przekroczyć. Zrobiłem na święta sernik, chciałem zrobić coś od siebie. Nikt tego nie wymagał, ale bardzo chciałem coś upiec, więc postawiłem na sernik. Na szybko wygooglowałem jakiś przepis, którego wcześniej nie robiłem, i dałem mu szansę - był to sernik królewski. Narobiłem dużo bałaganu w trakcie przygotowań, a sam sernik w smaku też raczej nie był najlepszy, ale się starałem 😅. W Wigilię najpierw spotkaliśmy się z moimi rodzicami i Alą, złożyliśmy sobie życzenia i pojechaliśmy na cmentarz. Potem pojechaliśmy już prosto do babci i spędziliśmy tam około 1,5 godziny. Myślę, że było fajnie, ale przyszedł moment, kiedy trzeba było jechać dalej.  Po drodze nie wiedzieliśmy, czy na pewno pani mama będzie na tej Wigilii, bo nie miała samochodu 😂, więc kombinowaliśmy, czy ją jakoś zabrać. W trakcie jazdy zgraliśmy się z panią mamą i dojechaliśmy razem w oddzielnych samochodach. Sama Wigilia była super, prezenty też ekstra. Dzień naprawdę udany. Następnego dnia obchodzone były urodziny Maćka, takiego brzdąca. Spotkaliśmy się z wieloma osobami przy stole, jedliśmy i spędzaliśmy razem czas 🥰."
+    },
+    {
+      id: 40,
+      name: "Wyjazd do Zakopanego",
+      date: "28 grudnia, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [49.291723934052534, 19.95704525581414],
+      imageUrl: "./40.jpg",
+      story: "Wyjazd do Zakopanego z moimi rodzicami, Alą i Lucasem był czymś, czym bardzo się stresowałem. Nie wiedziałem, jak to wyjdzie, ale wiedziałem, że muszę się postarać, żeby było jak najlepiej. Na początku zaczęło się niemrawo - wstaliśmy rano, każdy zmęczony i niewyspany, ale w samym Zakopanem uważam, że było spoko. Był to wyjazd z myślą o moim tacie, z okazji jego pięćdziesiątych urodzin. Byliśmy kilka razy na Krupówkach, jedliśmy bardzo dobre jedzenie, w tym kołacze i inne fajne placki. Maja zjadła jelenia 🫣. Wszystko było fajnie, ale oczywiście pojawiły się też sytuacje, które sprawiły, że nie było już tak dobrze. Jak już coś się poprawia, to zaraz znowu się psuje. Mimo wszystko całościowo zaliczam to raczej jako przyjemne wspomnienie, choć nie bez skaz. Było dużo śniegu, można było przyjemnie spędzić czas i trochę wyluzować 🤗. Wiem, że nie był to łatwy wyjazd, ale myślę, że naprawdę zrobiliśmy duży postęp jako para razem z Mają. Widać, że nasza praca przynosi efekty, ale potrzeba na to czasu i wysiłku obu stron ❤️."
+    },
+    {
+      id: 41,
+      name: "Sylwester i 50 mojego taty",
+      date: "31 grudnia, 2025",
+      description: "The park where we saw the lights",
+      coordinates: [52.19002129119178, 20.957330045569407],
+      imageUrl: "./41.jpg",
+      story: "Sylwestra mieliśmy spędzić na imprezie z okazji 50. urodzin mojego taty. Było zaproszonych dużo gości, w tym znajomi taty. Ja, zmotywowany tym, żeby podomykać tematy z tego roku, zacząłem rozmawiać z Mają, ale bardzo źle poruszyłem te kwestie 😢. Miałem ogromny mętlik w głowie, wiele rzeczy zaczęło mnie męczyć, czułem się z tym wszystkim sam. Maja reagowała nerwowo, kiedy znowu wracałem do tematów, które ona uważała za zamknięte. No i źle to poszło - przez moment naprawdę niewiele brakowało, żebyśmy w ogóle nie pojechali na tego Sylwestra. Nie dojechalibyśmy też z innego powodu: Warszawa była tak zasypana śniegiem, że bardzo ciężko jechało się samochodem, było niesamowicie ślisko. Każda taksówka kosztowała krocie, a każdy przejazd nam anulowano. Finalnie pojechaliśmy naszym autem. Wahałem się, czy w takim razie pić alkohol, ale uznałem, że chcę się bawić, a po samochód zawsze można wrócić. Impreza, uważam, była super. Cieszę się, że Maja się bawiła, bo myślałem, że przeze mnie będzie niefajnie i ponuro 🥺. To był dobry czas, były tam naprawdę super osoby,  jednak mam jakąś część rodziny, która jest spoko 😂. Najważniejsze jest to, że zakończyliśmy ten rok razem i że nowy również zaczęliśmy wspólnie ❤️. Dziękuję i doceniam, że była ze mną Maja, mam nadzieję, że dalej będzie. Kocham ją bardzo 🥰."
     }
   ];
 

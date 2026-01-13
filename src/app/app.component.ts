@@ -101,6 +101,7 @@ export class AppComponent implements OnInit, AfterViewInit {
         this.map.setView(marker.getLatLng(), 14);
       }
     }
+    this.scrollToTop();
   }
   openImageModal() {
     this.isModalOpen = true;
