@@ -339,7 +339,7 @@ export class MemoryService {
       description: "The park where we saw the lights",
       coordinates: [52.231475724435995, 21.008974735267106],
       imageUrl: "./37.jpg",
-      story: "Byliśmy razem z Mają na obiedzie u mojej babci. Było to spotkanie łączące kilka uroczystości, więc zebraliśmy się wszyscy razem. Myślę, że było miło i dość normalnie. Po obiedzie pojechaliśmy na jarmark bożonarodzeniowy przy Pałacu Kultury 🫣. Ogólnie bardzo lubię jarmarki i takie wydarzenia, a pierwszy raz byłem na jarmarku w tym miejscu. Był diabelski młyn i ciężarówka Coca-Coli! Były tam darmowe cole, ale kolejka była zdecydowanie zbyt długa, żeby w niej stać 😂. Zjedliśmy na jednym stoisku świetną kiełbasę z dodatkami oraz wypasione frytki. Naprawdę dobrze trafiliśmy z jedzeniem. Atmosfera była super, a sam jarmark, myślę, że bardzo udany, choć muszę przyznać, że było bardzo, ale to bardzo tłoczno. Mimo to miało to swój urok. Było mi bardzo miło, że mogłem spędzić ten czas z Mają."
+      story: "Byliśmy razem z Mają na obiedzie u mojej babci. Było to spotkanie łączące kilka uroczystości, więc zebraliśmy się wszyscy razem. Myślę, że było miło i dość normalnie. Po obiedzie pojechaliśmy na jarmark bożonarodzeniowy przy Pałacu Kultury 🫣. Ogólnie bardzo lubię jarmarki i takie wydarzenia, a pierwszy raz byłem na jarmarku w tym miejscu. Był diabelski młyn i ciężarówka Coca-Coli! Były tam darmowe cole, ale kolejka była zdecydowanie zbyt długa, żeby w niej stać 😂. Zjedliśmy na jednym stoisku świetną kiełbasę z dodatkami oraz wypasione frytki. Naprawdę dobrze trafiliśmy z jedzeniem. Atmosfera była super, a sam jarmark, myślę, że bardzo udany, choć muszę przyznać, że było bardzo, ale to bardzo tłoczno. Mimo to miało to swój urok. Było mi bardzo miło, że mogłem spędzić ten czas z Mają 🥰."
     },
     {
       id: 38,
@@ -348,7 +348,7 @@ export class MemoryService {
       description: "The park where we saw the lights",
       coordinates: [52.16670220946779, 21.040701604559118],
       imageUrl: "./38.jpg",
-      story: "Nadszedł spodziewany przeze mnie dzień. Michał powiedział mi wcześniej, że chyba musimy pogadać. Domyślałem się, że pewnie chodzi o podwyżkę i nie myliłem się. Trochę pogadaliśmy o tym, że chcą, żebym dalej z nimi współpracował, że będzie podwyżka, ale chodziło o formę naszej współpracy. Cieszyłem się bardzo z tej podwyżki, było mi niesamowicie miło, poczułem się mega doceniony, tym bardziej że praca mi się podoba. Jedyną osobą, z którą podzieliłem się tą wieścią, była Maja - świętowaliśmy mój, nazwijmy to, awans 🥰. Później okazało się, że podwyżka będzie wraz z nową umową, a nie od razu od tego miesiąca, jak myślałem, ale nie zmienia to faktu, że udało się zrobić duży postęp i widać wynik mojej pracy."
+      story: "Nadszedł spodziewany przeze mnie dzień. Michał powiedział mi wcześniej, że chyba musimy pogadać. Domyślałem się, że pewnie chodzi o podwyżkę i nie myliłem się. Trochę pogadaliśmy o tym, że chcą, żebym dalej z nimi współpracował, że będzie podwyżka, ale chodziło o formę naszej współpracy. Cieszyłem się bardzo z tej podwyżki, było mi niesamowicie miło, poczułem się mega doceniony, tym bardziej że praca mi się podoba. Jedyną osobą, z którą podzieliłem się tą wieścią, była Maja - świętowaliśmy mój, nazwijmy to, awans 🥰. Później okazało się, że podwyżka będzie wraz z nową umową, a nie od razu od tego miesiąca, jak myślałem, ale nie zmienia to faktu, że udało się zrobić duży postęp i widać wynik mojej pracy!"
     },
     {
       id: 39,

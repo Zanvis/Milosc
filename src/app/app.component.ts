@@ -179,4 +179,13 @@ export class AppComponent implements OnInit, AfterViewInit {
       });
     }
   }
+
+  scrollToBottom() {
+    if (this.isBrowser) {
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+      });
+    }
+  }
 }
