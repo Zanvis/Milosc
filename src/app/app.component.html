@@ -131,30 +131,11 @@
       />
     </div>
   </div>
-    <!-- Scroll to Bottom -->
-  <button 
-    *ngIf="showScrollButton"
-    (click)="scrollToBottom()" 
-    class="fixed bottom-4 right-4 bg-rose-500 text-white p-3 rounded-full shadow-lg hover:bg-rose-600 transition-all duration-300 z-40 cursor-pointer mb-14"
-    aria-label="Przewiń do dołu">
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      class="h-6 w-6" 
-      fill="none" 
-      viewBox="0 0 24 24" 
-      stroke="currentColor">
-      <path 
-        stroke-linecap="round" 
-        stroke-linejoin="round" 
-        stroke-width="2" 
-        d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-    </svg>
-  </button>
   <!-- Scroll to Top -->
   <button 
     *ngIf="showScrollButton"
     (click)="scrollToTop()" 
-    class="fixed bottom-4 right-4 bg-rose-500 text-white p-3 rounded-full shadow-lg hover:bg-rose-600 transition-all duration-300 z-40 cursor-pointer"
+    class="fixed bottom-4 right-4 bg-rose-500 text-white p-3 rounded-full shadow-lg hover:bg-rose-600 transition-all duration-300 z-40 cursor-pointer mb-14"
     aria-label="Przewiń do góry">
     <svg 
       xmlns="http://www.w3.org/2000/svg" 
@@ -167,6 +148,25 @@
         stroke-linejoin="round" 
         stroke-width="2" 
         d="M5 10l7-7m0 0l7 7m-7-7v18" />
+    </svg>
+  </button>
+    <!-- Scroll to Bottom -->
+  <button 
+    *ngIf="showScrollButton"
+    (click)="scrollToBottom()" 
+    class="fixed bottom-4 right-4 bg-rose-500 text-white p-3 rounded-full shadow-lg hover:bg-rose-600 transition-all duration-300 z-40 cursor-pointer"
+    aria-label="Przewiń do dołu">
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      class="h-6 w-6" 
+      fill="none" 
+      viewBox="0 0 24 24" 
+      stroke="currentColor">
+      <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="2" 
+        d="M19 14l-7 7m0 0l-7-7m7 7V3" />
     </svg>
   </button>
 </div>
